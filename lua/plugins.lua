@@ -127,5 +127,8 @@ return require('packer').startup(function(use)
   use 'neovim/nvim-lspconfig'
   use 'simrat39/rust-tools.nvim'
   use 'hrsh7th/vim-vsnip'
+
+  -- Editor config
+  use 'gpanders/editorconfig.nvim'
 end)
 
